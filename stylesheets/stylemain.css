@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Exo+2:wght@200&family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight:500; 
+    box-shadow: 0 1px 5px rgba (104,104,104, 0.8); 
+    
+}
+.maincontent{
+    display: grid;
+    grid-template-areas: 
+    'mainimg  mainimg img-a' 
+    'mainimg  mainimg img-b';
+     gap: 10px;
+    background-color: #ffffff;
+     
+}
+.mainimg{
+    grid-area: mainimg;
+    background:url(../images/ljpexels-photo-5868121.jpeg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-a{
+    grid-area: img-a;
+    background:url(../images/mainpexels-photo-5632405.webp);
+    background-repeat: no-repeat;
+    min-height: 225px;
+    background-size: cover;
+    background-position: center;
+}
+.img-b{
+    grid-area: img-b;
+    background:url(../images/mainpexels-photo-5650026.webp);
+    background-repeat: no-repeat;
+    min-height: 225px;
+    background-size: cover;
+    background-position: center;
+}
+.mainimg h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:#ff9f1a;
+}
+.mainimg h4{
+    font-size: 15px;
+    margin-bottom: 0px;
+    text-align: justify;
+    color:#ff9f1a;
+}
+.box{
+    height: 30px;
+    width: 300px;
+    background-color:#ff9f1a;
+    text-align: center;
+    color: black;
+    position: fixed;
+    padding: 5px;
+    top:250px;
+    right: -140px;
+    transform: rotate(-90deg);
+}
+/**crazy deals */
+.crasy{
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align:center ;
+    font-weight: 700;
+    border: 2px solid #ff9f1a ;
+}
+.crasy h1{
+    font-size: 30px;
+}
+.crasy span{
+    font-size: 50px;
+    color: #ff9f1a;
+}
+.gallery .gallerybox .galleryimg{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    border: 5px solid black;
+    
+    
+}
+.galleryimg {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 20px;
+}
+.galleryimg img{
+    height:300px;
+    width: 300px;
+    
+}
+.galleryimg img:hover{
+    transform: scale(1.1);
+    border:1px solid #ff9f1a;
+}
+
+
+
+ 

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Exo+2:wght@200&family=Roboto:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight:500;
+    }
+    /* logo */
+    ul li{
+        position: relative;
+    }
+    .link ul li ul.menwear{
+        width: 100%;
+        background-color:white;
+        position: absolute;
+        display: none;
+        font-size: 12px;
+        color: red;
+        
+    }
+    ul li a#men:hover{
+        border-bottom: 2px solid red;
+    }
+    ul li:hover ul.menwear{
+        display: block;
+    }
+    .link ul li ul.womenwear{
+        width: 100%;
+        background-color:white;
+        position: absolute;
+        display: none;
+        font-size: 12px;
+        color: pink;
+        }
+    ul li a#women:hover{
+        border-bottom: 2px solid pink;
+    }
+    ul li:hover ul.womenwear{
+        display: block;
+    }
+    .link ul li ul.kidswear{
+        width: 100%;
+        background-color:white;
+        position: absolute;
+        display: none;
+        font-size: 12px;
+        color: orangered;
+        }
+    ul li a#kids:hover{
+        border-bottom: 2px solid orangered;
+    }
+    ul li:hover ul.kidswear{
+        display: block;
+    }
+    .link ul li ul.homeitems{
+        width: 100%;
+        background-color:white;
+        position: absolute;
+        display: none;
+        font-size: 12px;
+        color: goldenrod;
+        }
+    ul li a#home:hover{
+        border-bottom: 2px solid goldenrod;
+    }
+    ul li:hover ul.homeitems{
+        display: block;
+    }
+    .link ul li ul.beautyitems{
+        width: 100%;
+        background-color:white;
+        position: absolute;
+        display: none;
+        font-size: 12px;
+        color: seagreen;
+        }
+    ul li a#beauty:hover{
+        border-bottom: 2px solid seagreen;
+    }
+    ul li:hover ul.beautyitems{
+        display: block;
+    }
+    
+   
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,371 @@
+/***men section */
+.crasy .menbox{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+.crasy .menbox .menimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+}
+
+.crasy .menbox .menimg img{
+    width: 100%;
+    transition: .3s;
+}
+.crasy .menbox .menimg:hover img{
+    opacity: 0.4;
+}
+
+.crasy .menbox .menimg h3{
+    font-size: 20px;
+    color:#ff9f1a;
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.crasy .menbox .menimg:hover h3{
+    opacity: 1;
+}
+.crasy .menbox .menimg .menbtn{
+    position: absolute;
+    margin-top: 180px;
+    color: #000;
+    background: #ff9f1a;
+    padding: 7px 25px;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(45px);
+    z-index: 999;
+    transition: 0.3s;
+}
+
+.crasy .menbox .menimg:hover .menbtn{
+    opacity: 1;
+    transform: translateY(0);
+}
+/***women section** */
+.crasy .womenbox{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 100px;
+}
+.crasy .womenbox .womencard{
+    height: 425px;
+    width: 320px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.crasy .womenbox .womencard .womenimg{
+    height: 300px;
+    width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #ff9f1a;
+}
+.crasy .womenbox .womencard .womenimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;   
+    transition: .3s;
+
+}
+.crasy .womenbox .womencard .womenimg:hover img{
+    transform: scale(1.3);
+}
+.crasy .womenbox .womencard .womeninfo{
+    border: 1px solid black;
+}
+.crasy .womenbox .womencard .womeninfo h2{
+    font-size: 20px;
+    color:#ff9f1a;
+    text-align: center;
+}
+.crasy .womenbox .womencard .womeninfo p{
+    font-size: 15px;
+    color:brown;
+    text-align: center;
+}
+.crasy .womenbox .womencard .womeninfo h3{
+    font-size: 15px;
+    color:#ff9f1a;
+    text-align: center;
+}
+.crasy .womenbox .womencard .womeninfo .womenicon{
+    font-size: 15px;
+    color:blue;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.crasy .womenbox .womencard .womeninfo .womenbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #000;
+    padding: 5px 10px;
+    margin: 0 50px;
+    transition: 0.3s;
+}
+/***kids section */
+.crasy .kidbox{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 100px;
+}
+.crasy .kidbox .kidimg{
+    height: 300px;
+    width: 200px;    
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+.crasy .kidbox .kidimg img{
+    height: 200px;
+    width:200px ;
+    object-fit: cover;
+    object-position: center;   
+    border-radius:60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    transition: .2s;
+    position: absolute;
+    top:20%;
+    right: 2%;
+    z-index: 999;
+
+}
+.crasy .kidbox .kidimg:hover img{
+    border-radius: 20%;
+    margin-top: -200px;
+}
+.crasy .kidbox .kidimg .kidinfo{
+    margin-top: 60%;
+    
+}
+.crasy .kidbox .kidimg .kidinfo h2{
+    font-size: 20px;
+    color:#ff9f1a;
+    text-align: center;
+}
+.crasy .kidbox  .kidimg .kidinfo p{
+    font-size: 15px;
+    color:salmon;
+    text-align: center;
+}
+.crasy .kidbox  .kidimg .kidinfo h3{
+    font-size: 15px;
+    color:#ff9f1a;
+    text-align: center;
+}
+.crasy .kidbox   .kidimg .kidinfo .kidicon{
+    font-size: 15px;
+    color:mediumvioletred;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.crasy .kidbox .kidinfo .kidbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #ff9f1a;
+    padding: 5px 10px;
+    margin: 0 50px;
+    transition: 0.3s;
+}
+.crasy .kidbox .kidimg:hover{
+    border-radius: 20%;
+    height: 300px;
+}
+/***home&living section** */
+.crasy .homebox{ 
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 100px;
+}
+.crasy .homebox .homecard{
+    height: 425px;
+    width: 320px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.crasy .homebox .homecard .homeimg{
+    height: 300px;
+    width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #ff9f1a;
+}
+.crasy .homebox .homecard .homeimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;   
+    transition: .3s;
+    opacity: 0.2;
+
+}
+.crasy .homebox .homecard .homeimg:hover img{
+    opacity: 1;
+}
+.crasy .homebox .homecard .homeinfo{
+    border: 1px solid black;
+}
+.crasy .homebox .homecard .homeinfo h2{
+    font-size: 20px;
+    color:#ff9f1a;
+    text-align: center;
+}
+.crasy .homebox .homecard .homeinfo p{
+    font-size: 15px;
+    color:brown;
+    text-align: center;
+}
+.crasy .homebox .homecard .homeinfo h3{
+    font-size: 15px;
+    color:#ff9f1a;
+    text-align: center;
+}
+.crasy .homebox .homecard .homeinfo .homeicon{
+    font-size: 15px;
+    color:orchid;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.crasy .homebox .homecard .homeinfo .homebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background:yellowgreen;
+    padding: 5px 10px;
+    margin: 0 50px;
+    transition: 0.3s;
+} 
+/* *review */
+.crasy .reviewbox{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 100px;
+}
+.crasy .reviewbox .reviewcard{
+    height: 400px;
+    width: 320px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.crasy .reviewbox .reviewcard .reviewimg{
+    height: 100px;
+    width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 0%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.crasy .reviewbox .reviewcard .reviewimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;   
+    margin-bottom:20px;
+
+}
+
+.crasy .reviewbox .reviewcard .reviewtext{
+    text-align: center;
+}
+.crasy .reviewbox .reviewcard .reviewtext  .name{
+    font-size: 20px;
+    color: red;
+    transition: 0.2s;
+}
+.crasy .reviewbox .reviewcard:hover .reviewtext .name{
+    transform: translateY(-50px);
+}
+.crasy .reviewbox .reviewcard .reviewicon{
+    color: peru;
+    transition: 0.2s;
+    
+}
+.crasy .reviewbox .reviewcard:hover .reviewicon {
+    transform: translateY(-30px);
+}
+.crasy .reviewbox .reviewcard .reviewimg .reviewtext p{
+    font-size: 18px;
+    color: brown;
+}
+.crasy .reviewbox .reviewcard .reviewsocial i{
+    color: purple;
+    font-size: 18px;
+    padding: 8px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.crasy .reviewbox .reviewcard:hover .reviewsocial i {
+    transform: translateY(-8px);
+    opacity: 1;
+}
+/* **footer */
+footer{
+    background-color: #ff9f1a;
+}
+footer .footermain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:20px 70px 20px 70px;
+    
+    
+}
+.footermain .footertag h2{
+    font-size: 18px;
+    color: red;
+}
+.footermain .footertag p{
+    font-size: 15px;
+    color: black;
+}
+.footermain .footertag i{
+    font-size: 15px;
+    color: blue;
+}
+.footercopy p{
+    text-align: center;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
